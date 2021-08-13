@@ -1,5 +1,5 @@
- *, *::before, *::after {
-    border-radius: 25px;
+  *, *::before, *::after {
+    border-radius: 15px;
     box-sizing: border-box;
     font-family: Gotham Rounded, sans-serif;
     font-weight: normal;
@@ -23,7 +23,7 @@
       width: 60px;
       height: 60px;
       background-color: transparent;
-      border: 6px solid rgba(255,255,255,0.8);
+      border: 6px solid rgba(255, 255, 255,0.8);
   }
 
   .box div:nth-child(1){
@@ -111,7 +111,7 @@
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
-    background-color: rgba(5, 232, 88, .75);
+    background-color: rgba(0, 77, 77,.79);
   }
   
   .calculator-grid > button:hover {
@@ -124,7 +124,7 @@
   
   .output {
     grid-column: 1 / -1;
-    background-color: rgba(232, 43, 5, .75);
+    background-color: rgba(0, 26, 26, .75);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
